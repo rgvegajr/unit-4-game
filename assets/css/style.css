@@ -1,0 +1,75 @@
+
+
+
+
+/* style sheet for crystals collector game */
+body {
+    background-image: url("morocco-blue.png");
+}
+
+.container {
+    margin: 1% 50% 5% 1%;
+}
+
+.jumbotron  {
+    padding: 0;
+    margin: 1% 50% 5% 1%;
+
+}
+
+h1  {
+    padding: 5% 10%;
+    background-color: orange;
+    color: white;
+}
+
+h2 {
+    margin: 2px 2px;
+
+}
+
+*#instr  {
+    background-color: peachpuff;
+    color: green;
+}
+
+div {
+    /*padding: 10px 5px;*/ 
+}
+.row {
+   margin: 5px 2px;
+
+}
+
+.col {
+    /*margin: 1%;*/
+}
+#gameNumberBox {
+    background-color: green;
+    
+}
+
+#winsnlosses {
+    background-color: lightblue;
+}
+
+img {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid tan;
+}
+
+#score {
+    height: 30px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#runningScore {
+    height: 200px;
+    background-color: cornflowerblue;
+    color: white;
+}

@@ -1,0 +1,20 @@
+notes:
+rpg - 4 available characters, choose one to be, then another to fight
+areas: char avail, enemies avail, fight section, defender
+as attacker: each attack power increases by 8, defend powers appear fixed as char obi-wan 8++, as def luke 5, ds 20, dm 25
+in game choices - attack, chose new enemy 
+game over - restart
+init: 4 charoptions w/fixed HP, plus: Your Char, Enemies Avail to Atk, Fight section w/attack btn, and Defender sections.  empty: your char, defender
+selected char put in your char section, selected def put in defender section
+attack: char & defender HP reduced until char HP or def HP <= 0, then char either wins or loses.  
+If char wins, defender removed, pick another enemy avail to attack, char attack power carried over
+If char loses, game over
+- ref: fridge.html (adding & removing html)
+
+crystal - 
+areas:  title, instructions, game val, wins/losses, 4 x crystals, your total curr game score
+1-12 random crystal values
+19-120 random game num values
+init: random number, random crystal values, wins/losses set to zero
+play: new random numbers and crystal values, wins/losses fro previous game
+- ref: 12.html (crystal collector game), trigger-random.html (random num gen), jquery calc (on click)
