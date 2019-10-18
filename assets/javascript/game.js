@@ -11,8 +11,8 @@ let losses = 0;
 //let counter = 0;
 
 // functions, objects, methods
-$(function() {  // Handler for .ready() called.
-let ccGame = {
+$(document).ready(function() {
+    let ccGame = {
     init: function () {
         targetNumber = Math.floor(Math.random() * (120 - 19 + 1) + 19);  //max=120, min=19
         $("#gameNumber").text(targetNumber);
